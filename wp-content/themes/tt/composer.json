@@ -1,0 +1,8 @@
+{
+    "name": "andrew/tt",
+    "autoload": {
+        "psr-4": {
+            "TT\\": "include/"
+        }
+    }
+}
