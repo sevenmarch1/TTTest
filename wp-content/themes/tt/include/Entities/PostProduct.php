@@ -40,6 +40,7 @@ class PostProduct
 
     /**
      * - Возвращает самые популярные товары
+     * @param int $count количество популярных товаров
      * @return []
      */
     static function getTopSellingProducts($count = 3): array
