@@ -17,6 +17,7 @@ _DEBUG_.*
 /wp-content/themes/*
 
 !.gitignore
+!README.md
 
 !/wp-content
 !/wp-content/themes
