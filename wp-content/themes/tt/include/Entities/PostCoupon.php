@@ -59,7 +59,7 @@ class PostCoupon
     {
         $subject =  __('Ваш купон на скидку 10%', 'tt');
         $message = __('Спасибо за подписку! Ваш купон:', 'tt') . " <strong>$couponСode</strong>";
-        $headers = array('Content-Type: text/html; charset=UTF-8');
+        $headers = ['Content-Type: text/html; charset=UTF-8'];
 
         return wp_mail($email, $subject, $message, $headers);
     }
